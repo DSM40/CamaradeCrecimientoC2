@@ -98,6 +98,23 @@ ul{
     font-size: 3rem;
     color: #000000;
 }
+button{
+    background-color: #d21919f7; /* Color verde */
+    border: none;
+    color: white;
+    padding: 15px 32px; /* Tamaño del botón */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+button:hover {
+    background-color: #8f1a1a; /* Color verde más oscuro al pasar el cursor */
+}
 /*Fotter*/
 .pie{
     background:  linear-gradient(to bottom, rgb(6, 9, 121), rgb(0, 0, 0));
