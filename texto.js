@@ -23,6 +23,7 @@ async function obtenerUltimoDato() {
     document.getElementById("humi").textContent = Math.trunc(data.field2*100)/100 +' %HR' || 'No data';
     document.getElementById("Co").textContent = Math.trunc(data.field3*100)/100 + ' ppm' || 'No data';
     document.getElementById("FFP").textContent = Math.trunc(data.field4*100)/100 + ' umol/m^2*s' || 'No data';
+    document.getElementById("FFP2").textContent = Math.trunc(data.field5*100)/100 + ' umol/m^2*s' || 'No data';
 
   } catch (error) {
     console.error("Error al obtener el dato:", error);
