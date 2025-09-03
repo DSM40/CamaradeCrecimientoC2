@@ -18,20 +18,21 @@
 </head>
 <body>
     <header class="titulo">
-        <h1>Cámara de crecimiento CAMPUS 2</h1>
+        <!--<h1>Cámara de crecimiento CAMPUS 2</h1>-->
+        <h1>Plant growth chamber C2</h1>
     </header>
     <div class="contenedor">
         <nav class="navegacion">
             <img src="img/DSM.jpg" alt="logo" class="logo_nav">
             <ul class="menu">
                 <li>
-                    <a href="variables.html">Pantalla C2</a>
+                    <a href="variables.html">Panel C2</a>
                 </li>
                 <li>
-                    <a href="camaraC1.html">Graficas C1</a>
+                    <a href="camaraC1.html">Plots C1</a>
                 </li>
                 <li>
-                    <a href="Invernadero.html">Graficas Invernadero</a>
+                    <a href="Invernadero.html">Plots Greenhouse</a>
                 </li>
             </ul>
         </nav>
@@ -40,7 +41,7 @@
         <table>
             <tr>
                 <td colspan="2">
-                    <h1>Variables ambientales</h1>
+                    <h1>Environmental variables</h1>
                 </td>
             </tr>
             <tr>
@@ -61,7 +62,7 @@
             </tr>
             <tr>
                 <td>
-                    <iframe src="https://thingspeak.mathworks.com/apps/matlab_visualizations/623838"></iframe>
+                    <iframe src="https://thingspeak.mathworks.com/channels/2743619/charts/1?bgcolor=%23ffffff&color=%23A020F0&dynamic=true&results=30&title=Vapor+Pressure+Deficit&type=line&xaxis=Time&yaxis=DPV"></iframe>
                 </td>
                 <td>
                     <iframe src="https://thingspeak.com/channels/2450378/charts/5?bgcolor=%23ffffff&color=%23ff0080&dynamic=true&results=30&title=Photosynthetic+Photon+Flux+2&type=line&xaxis=Time&yaxis=PPF+%28umol%2Am%5E-2%2As%5E-1%29"></iframe>
@@ -69,7 +70,10 @@
             </tr>
             <tr>
                 <td>
-                    <button onclick="downloadCSV()">Descargar</button>
+                    <iframe src="https://thingspeak.mathworks.com/apps/matlab_visualizations/623838"></iframe>
+                </td>
+                <td>
+                    <button onclick="downloadCSV()">Download data</button>
                 </td>
             </tr>
         </table>
